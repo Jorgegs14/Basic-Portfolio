@@ -5,7 +5,7 @@
 body {
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(/assets/images/gravel.png);
+    background-image: url("../images/gravel.png");
     line-height: 30px;
 }
 
@@ -26,16 +26,14 @@ a:link {
     margin: 0 auto 0 auto;
     position: relative;
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 #name {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    padding: 5px;
-    position: absolute;
-    left: 255px;
-    bottom: 0px;
+   float: left;
 }
 
 #links {
@@ -71,6 +69,7 @@ a:link {
     background-color: #ffffff;
     clear: both;
     margin: 0 auto 0 auto;
+    padding: 30px;
 }
 
 #sub {
